@@ -18,6 +18,7 @@ public class Level_Door : MonoBehaviour {
 	private Player_Inventory inventory;
 	private Vector3 open = new Vector3(0f,90f,0f);
 	private Vector3 close = new Vector3(0f,0f,0f);
+    private BoxCollider boxColider;
 	private bool openprocess = false;
 	
 		
@@ -35,8 +36,6 @@ public class Level_Door : MonoBehaviour {
 				door_pivot.transform.localEulerAngles = Vector3.Lerp(door_pivot.transform.localEulerAngles,close,0.2f);
 			}
 		}
-		
-		new Vector3(0f,90f,0f);
 	}
 	
 	// Once a door is unlocked, it remains unlocked

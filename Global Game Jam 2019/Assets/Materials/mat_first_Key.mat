@@ -22,7 +22,7 @@ Material:
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: 7ceb693bb6a21417186e56a4bf198930, type: 3}
         m_Scale: {x: 0.125, y: 0.125}
-        m_Offset: {x: 0, y: 0}
+        m_Offset: {x: 0, y: 0.25}
     m_Floats:
     - _Cutoff: 0.5
     m_Colors:
