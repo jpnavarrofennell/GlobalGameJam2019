@@ -5,7 +5,25 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Scenes/Example Scenes/Examples/01-GUI.unity
+    guid: 617209bb346c049f08f426b50d90b56e
+  - enabled: 1
+    path: Assets/Scenes/Example Scenes/Examples/01-Transparency.unity
+    guid: 39741cef93ee04af5a7b30176f11b037
+  - enabled: 1
+    path: Assets/Scenes/Example Scenes/Examples/02-DoorsAndKeys.unity
+    guid: 42e38b4152bf3407b8de33c36de2a67d
+  - enabled: 1
+    path: Assets/Scenes/Example Scenes/Examples/03-DeadZones.unity
+    guid: de32cac5209d4be4c958fb0a8853de63
+  - enabled: 1
+    path: Assets/Scenes/Example Scenes/Examples/03-DoorAndKeyWithEnemy.unity
+    guid: 47ad9306df37f4f7f84c1e59eeec6980
+  - enabled: 1
+    path: Assets/Scenes/Example Scenes/Examples/03-Enemys.unity
+    guid: 6dfcdacf71ff443d580635f56f10ca04
   m_configObjects: {}
